@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #00abee;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    text-align: justify;
+    max-width: 600px; /* batas maksimal lebar teks */
+    margin: 150px 0 20px 90px; /* atas 20px, kanan 0px, bawah 20px, kiri 50px */
+    line-height: 1.6; /* biar jarak antar baris lebih nyaman */
+}
+
+img {
+    position: absolute; /* bikin posisi gambar bebas */
+    top: 240px; /* jarak dari atas */
+    left: 950px; /* jarak dari kanan */
+    max-width: 25% ; /* atur ukuran gambar */
+    height: auto;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('/static/abu2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
